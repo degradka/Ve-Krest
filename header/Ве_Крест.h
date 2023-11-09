@@ -10,7 +10,6 @@
 #include <stdio.h>
 
 #define царь_батюшка_главный int main
-#define внедрить using
 #define молвить printf
 #define внемлить scanf
 #define воздать return
@@ -61,18 +60,19 @@
 #define закупорить fclose
 #define суд_Перуна auto
 #define очами_стрельнуть fgetc
+#define размер sizeof
 
-внедрить целина = int;
-внедрить вель_дробь = double;
-внедрить малый_дробь = float;
-внедрить буква = char;
-внедрить много_букав = char*;
-внедрить бестолочь = void;
-внедрить карлик = short;
-внедрить долговязый = long;
-внедрить Петр_Первый = long long;
-внедрить мерило = size_t;
-внедрить розсуд = int;
+#define целина int
+#define вель_дробь double
+#define малый_дробь float
+#define буква char
+#define много_букав char*
+#define бестолочь void
+#define карлик short
+#define долговязый long
+#define Петр_Первый long long
+#define мерило size_t
+#define розсуд int
 
 
 перепись счёт_древних_русов{ ноль = 0, целковый = 1, полушка = 2, четвертушка = 3, осьмушка = 4,
